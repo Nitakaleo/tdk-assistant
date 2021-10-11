@@ -1,0 +1,548 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "Is anyone there?",
+        "Hi!",
+        "Hey",
+        "hy how are you",
+        "Hello",
+        "wadi"
+      ],
+      "responses": [
+        "Hello!!",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye!",
+        "See you later.",
+        "Goodbye.",
+        "Nice chatting to you, bye.",
+        "Till next time."
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day! :-)",
+        "Bye! Come back again soon."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks!",
+        "Thank you :)",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You are welcome",
+        "No problems :-)"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "You all right?",
+        "Are you well?",
+        "what's up?",
+        "What's going on?",
+        "How have you been?",
+        "How is everything",
+        "What's new"
+      ],
+      "responses": [
+        "I'm fine, thanks.", "Fine","I'm good", "I'm great!","Doing really well!", "Couldn't be better!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "bot_name",
+      "patterns": [
+        "Who are you?",
+        "What your name?",
+        "tell me your name",
+        "how you are called",
+        "what did you say your name was",
+        "please state your name",
+        "name again",
+        "what was your name again",
+        "what are you calling yourself"
+
+      ],
+      "responses": [
+        "I'm Medibot, your personal medical-bot assistant. If you don't know me, ask me what I can do."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "How you could help me?",
+        "What can you do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "In which way you can help me?"
+      ],
+      "responses": [
+        "If you have health problems I can give yuo some advise to help you get better. You can tell me all your symptoms, and I'll try to understand what could be your problem. The more precise you are in describing the symptoms, the more precise I will be in understanding what your health problem is.\n Moreover, you can ask me also information about som kind of health problem or disease."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "headache",
+      "patterns": [
+        "I have a headache",
+        "I have headache",
+        "I have a very bad headache, what could I take?",
+        "I have a headache, what can I do?",
+        "I have a headache, what should I do?",
+        "I had a headache",
+        "I had a severe headache",
+        "What can I in do in case of headache?",
+        "What can I in do if I have headache?",
+        "What should I in do in case of headache?",
+        "Best practice in case of headache",
+        "What are your suggestions in case of headache",
+        "I need your tip for my headache",
+        "headache treatment",
+        "headache remedies",
+        "What are the treatments for a headache?",
+        "What are the remedies for a headache?",
+        "What are the remedies if I have a headache?",
+        "I have a headache, what could I take"
+      ],
+      "responses": [
+        "You should drink water, take some magnesium and try to sleep. If doesn't go away you can take a medicine like aspirin, paracetamol or ibuprofen. "
+      ]
+    },
+    {
+      "tag": "common_cold",
+      "patterns": [
+        "I have a cold, what could I take",
+        "I have a common cold",
+        "I have a cold",
+        "I have a bad cold, what could I take?",
+        "I have a cold, what can I do?",
+        "I have a cold, what should I do?",
+        "I had a severe cold",
+        "What can I in do in case of cold?",
+        "What can I in do if I have cold?",
+        "What should I in do in case of cold?",
+        "Best practice in case of cold",
+        "What are your suggestions in case of cold",
+        "I need your tip for my cold",
+        "cold treatment",
+        "cold remedies",
+        "I think to have a common cold, what can I do?",
+        "What are the treatment for a cold?",
+        "What are the remedies for a cold?",
+        "What are the remedies if I have a cold?",
+        "Maybe I have cold",
+        "maybe my father got",
+        "maybe my father caught the flu",
+        "maybe I got a cold",
+        "maybe I caught a cold"
+      ],
+      "responses": [
+        "You should rest and sleep, keep warm, drink plenty of water and if you have a fever, take some paracetamol."
+      ]
+    },
+    {
+      "tag": "common_cold_symptoms",
+      "patterns": [
+        "I have a blocked nose",
+        "I have a blocked nose, what could I have?",
+        "I have a raised temperature and blocked nose",
+        "I have a bit of fever and i sneeze continually",
+        "I sneeze all the time",
+        "I am feeling a bit run down",
+        "I am feeling under the weather and I have blocked nose",
+        "I have a sore throat and I sneeze what could I have?"
+      ],
+      "responses": [
+        "With these symptoms you may have a common cold. If you want, you can check what are the common cold symptoms."
+      ]
+    },
+    {
+      "tag": "common_cold_information",
+      "patterns": [
+        "What is common cold ?",
+        "what is a cold ?",
+        "What are the symptoms of common cold?",
+        "common cold symptoms",
+        "cold symptoms",
+        "in what ways does common cold manifest itself?",
+        "in what ways does a cold manifest itself?"
+      ],
+      "responses": [
+        "The common cold is a viral infection of your nose and throat (upper respiratory tract). It's usually harmless, although it might not feel that way. Many types of viruses can cause a common cold.\nChildren younger than 6 are at greatest risk of colds, but healthy adults can also expect to have two or three colds annually.\n Symptoms of a common cold usually appear one to three days after exposure to a cold-causing virus. Signs and symptoms, which can vary from person to person, might include:\n\n- Runny or stuffy nose\n\n- Sore throat\n\n- Cough\n\n- Congestion\n\n- Slight body aches or a mild headache\n\n- Sneezing\n\n- Low-grade fever\n\n- Generally feeling unwell (malaise)"
+      ]
+    },
+    {
+      "tag": "blood_pressure",
+      "patterns": [
+        "I have the pressure of the blood high, what does it means?",
+        "I have measured the pressure and it is high",
+        "My pressure is high",
+        "I have a high blood pressure",
+        "I have high blood pressure, what can I do?",
+        "I have high blood pressure, what should I do?",
+        "Best practice in case of High pressure",
+        "What are your suggestions in case of high blood pressure",
+        "What are your suggestions if my pressure is high",
+        "I need to a your tip for my high pressure",
+        "I need to a your tip for high blood pressure",
+        "Maybe I have the high pressure",
+        
+      ],
+      "responses": [
+        "You may be hypertensive, check the references for the normal values of high pressure and then, if your values are not normal contact your doctor."
+      ]
+    },
+    {
+      "tag": "blood_pressure_reference",
+      "patterns": [
+        "What are the normal level of blood pressure?",
+        "How can I know if my blood pressure is ok?",
+        "normal values for pressure",
+        "guidelines for pressure",
+        "I want a guideline for the blood pressure",
+        "What are the normal values for the blood pressure?"
+      ],
+      "responses": [
+        "If the blood pressure is consistently 130/80 mm Hg or higher, the blood pressure is high, there is the presence of hypertension. In this case contact a doctor for further information. Otherwise the pressure of the blood is normal."
+      ]
+    },
+    {
+      "tag": "flu_symptoms",
+      "patterns": [
+        "I have fever and body aches",
+        "I feel all my body broke and i think to have a bit of temperature",
+        "I have Temperature and sore throat",
+        "I have temperature",
+        "I have got a fever.",
+        "I'm running a fever",
+        "I'm running a temperature",
+        "I have a high fever, what could I have",
+        "I've got temperature",
+        "i've got high temperature"
+      ],
+      "responses": [
+        "You could have a flu. You could have also the covid-19 ( or coronavirus), \n if you you have not already been vaccinated for it or have already had the disease."
+      ]
+    },
+    {
+      "tag": "flu",
+      "patterns": [
+        "I have the flu, what could I take",
+        "I have the flu, what could I do?",
+        "What should i do if I have the flu?",
+        "I have the flu, what are the remedies?",
+        "I have the flu, what is the treatment",
+        "I have flu",
+        "What are your suggestions in case of flu",
+        "I need to a your tip for my flu",
+        "If i have flu what should I do?",
+        "If I have flu what could I do?",
+        "Maybe I have the flu?",
+        "Maybe my son could have the flu?",
+        "Maybe my mother has the flu?",
+        "maybe I got the flu"
+      ],
+      "responses": [
+        "You should rest and sleep, keep warm, drink plenty of water and if the fever increases a lot you could take paracetamol or ibuprofen."
+      ]
+    },
+    {
+      "tag": "hit_limb",
+      "patterns": [
+        "I hit my knee and it is swollen",
+        "My leg is swollen after hit with the floor",
+        "I fell to the ground and I have the ankle swollen",
+        "my ankle hurts a lot after falling",
+        "my knee hurts after falling",
+        "My ankle is swollen after falling",
+        "my elbow hurts after falling",
+        "I have elbow swollen after falling",
+        "I sprained my ankle, it is swollen",
+        "What can i do with a sprained ankle?",
+        "What are your suggestions in case of part of body swollen after a hit",
+        "I need to a your tip for knee swollen after falling ",
+        "I need to a your tip for ankle swollen",
+        "I need to a your tip for elbow swollen"
+      ],
+      "responses": [
+        "I suggest you put ice on the swollen (and/or in part that hurts) body part, if it doesn't pass I suggest you go to the hospital for a x-ray."
+      ]
+    },
+    
+    
+    {
+      "tag": "covid-19_symptoms",
+      "patterns": [
+        "I lost my sense of smell and taste what could I have?.",
+        "I have fever and difficulty breathing what could I have?.",
+        "I no longer feel smells and tastes",
+        "I have some problem in breathing",
+        "I cannot breath very well and I have fever",
+        "I have temperature and I lost smell",
+        "I have temperature and I lost taste"
+      ],
+      "responses": [
+        "You could have Covid-19. I suggest you to check the covid-19 symptoms and contact your doctor."
+      ]
+    },
+    {
+      "tag": "covid-19",
+      "patterns": [
+        "What is covid-19",
+        "what is coronavirus ?",
+        "What are the symptoms of coronavirus?",
+        "Covid-19 symptoms",
+        "coronavirus symptoms",
+        "in what ways does covid-19 manifest itself?",
+        "in what ways does coronavirus manifest itself?"
+      ],
+      "responses": [
+        "People with COVID-19 have had a wide range of symptoms reported - ranging from mild symptoms to severe illness. Symptoms may appear 2-14 days after exposure to the virus. Anyone can have mild to severe symptoms. \n\n People with these symptoms may have COVID-19: \n\n - Fever \n\n - Cough \n\n - Shortness of breath or difficulty breathing \n\n - New loss of taste or smell \n\n - Sore throat\n\n - Nausea or vomiting \n\n - Congestion or runny nose \n\n - Diarrhea"
+      ]
+    },
+    {
+      "tag": "covid-19_suggestions",
+      "patterns": [
+        "I have covid-19",
+        "I have covid",
+        "I may have covid-19",
+        "I have coronavirus",
+        "I may have coronavirus",
+        "What can I do in case of Covid-19?",
+        "What  should I do in case of Covid-19?",
+        "What is the procedure in case of Covid-19?",
+        "What do in case of Covid-19",
+        "Best practice in case of Covid-19",
+        "What are your suggestions in case of covid-19",
+        "What are your suggestions in case of coronavirus",
+        "I need to a your tip for covid-19",
+        "I need to a your tip for coronavirus",
+        "Maybe I could have covid-19",
+        "Maybe I could have coronavirus"
+      ],
+      "responses": [
+        "If you are sick with COVID-19 or think you might have COVID-19, you should monitor the symptoms, if you have and if you present the Covid-19 symptoms contact your doctor."
+      ]
+    },
+    {
+      "tag": "acne",
+      "patterns": [
+        "What is acne?",
+        "causes of acne",
+        "what causes acne?",
+        "What are the causes of the acne?"
+      ],
+      "responses": [
+        "Acne is a skin condition caused by dead skin cells sticking together and clogging up pores. Bacteria can play a role, too. A big trigger for the onset of acne is puberty."
+      ]
+    },
+    {
+      "tag": "acne-treatments",
+      "patterns": [
+        "Acne remedies",
+        "I have the acne, what are the remedies?",
+        "acne treatments",
+        "What are the treatments for acne?",
+        "In which way i can cure the acne",
+        "In which way i should cure the acne",
+        "In which way i may cure the acne",
+        "what do you suggest me to do in case of acne?",
+        "What can I in do in case of acne?",
+        "What can I in do if I have acne?",
+        "What should I in do in case of acne?",
+        "Best practice in case of acne",
+        "What are your suggestions in case of acne",
+        "I need your tip for acne",
+        "I need your tip for acne in my face",
+        "I need to your tip for acne in my body",
+        "Maybe I have the acne",
+        "Maybe my son could have the acne?",
+        "Maybe my mother has the acne?"
+
+      ],
+      "responses": [
+        "The are some drugs suitable for acne. Contact your Doctor to give more information."
+      ]
+    },
+    {
+      "tag": "acne-symptoms",
+      "patterns": [
+        "I have Crusting of skin bumps, what could I have.",
+        "I have a lot of cysts, what can it be.",
+        "I have Pustules on my body, what could it be",
+        "I have cysts on my body",
+        "I have cysts in my face",
+        "I have pustules on my faces, what could I have",
+        "I have redness around the skin eruptions, on may face, what could I have",
+        "my face is covered by pustules, what can it be",
+        "my face is covered by cysts",
+        "In my body there many cysts and pustules"
+      ],
+      "responses": [
+        "You may have the acne. I suggest a dermatologist visit."
+      ]
+    },
+    {
+      "tag": "backache",
+      "patterns": [
+        "I have backache, what can I do?",
+        "I have backache, what should I do?",
+        "I have backache, what could I do?",
+        "I have back pain",
+        "I have a lot back pain",
+        "What are your suggestions in case of backache",
+        "What do you suggest in case of backache",
+        "I need to a your tip for my backache",
+        "I need to a your tip for back pain"
+      ],
+      "responses": [
+        "If you have back pain, try not to strain it, and rest for a few days. If the pain doesn't improve contact your doctor."
+      ]
+    },
+    {
+      "tag": "appendicitis",
+      "patterns": [
+        "What is appendicitis?",
+        "What is the appendicitis?",
+        "what are the appendicitis symptoms?",
+        "Can I recognize the appendicitis?",
+        "in what ways does appendicitis manifest itself?"
+      ],
+      "responses": [
+        "Appendicitis typically starts with a pain in the middle of your tummy (abdomen) that may come and go. Within hours, the pain travels to your lower right-hand side, where the appendix is usually located, and becomes constant and severe.\nPressing on this area, coughing or walking may make the pain worse.\nIf you have appendicitis, you may also have other symptoms, including:\n\n- feeling sick (nausea)\n\n- being sick\n\n- loss of appetite\n\n- constipation or diarrhoea\n\n- a high temperature and a flushed face"
+      ]
+    },
+    {
+      "tag": "appendicitis_symptoms",
+      "patterns": [
+        "if i press my right side it hurts a lot, what it  can be",
+        "I feel sick and my right side it hurts a lot, what it could be?",
+        "I lost appetite and my right side it hurts a lot, what  it  could be",
+        "I have plenty of pain to my right side, what could I have ",
+        "I have pain to my right side, what could I have",
+        "pressing my right side i feel pain, what can I have",
+        "I have pain in the right side of the abdomen",
+        "if I press on the right side of the abdomen I feel a lot of pain",
+        "if I press on the right side of the abdomen I feel pain"
+      ],
+      "responses": [
+        "With these symptoms you may have appendicitis. Check the symptoms of appendicitis."
+      ]
+    },
+    {
+      "tag": "appendicitis_suggestion",
+      "patterns": [
+        "What should i do in case of appendicitis ?",
+        "What I can do in case of appendicitis",
+        "What is the best procedure in case of appendicitis",
+        "If I have the appendicitis what can i do?",
+        "If I have the appendicitis what should i do?",
+        "what do you suggest me to do in case of appendicitis?",
+        "What are your suggestions in case of appendicitis",
+        "I need to a your tip for my appendicitis",
+        "Maybe I have the appendicitis",
+        "Maybe my son could have the appendicitis?",
+        "Maybe my father has the appendicitis?",
+        "Maybe I have the appendicitis?"
+      ],
+      "responses": [
+        "I suggest you to call immediately your doctor, he will provide you more information. Otherwise you could go directly to the hospital."
+      ]
+    },
+    {
+      "tag": "asthma-attack",
+      "patterns": [
+        "What is asthma attack?",
+        "What is the asthma attack?",
+        "what are the asthma attack symptoms?",
+        "Can I recognize the asthma attack?",
+        "in which ways does asthma attack manifest itself?"
+      ],
+      "responses": [
+        "An Asthma attack can happen suddenly, or gradually over a few days.\n\nSigns of a severe asthma attack include:\n\n- wheezing, coughing and chest tightness becoming severe and constant\n\n-being too breathless to eat, speak or sleep\n\n-breathing faster\n\n-a fast heartbeat\n\n-drowsiness, confusion, exhaustion or dizziness\n\n-blue lips or fingers\n\n-fainting"
+      ]
+    },
+    {
+      "tag": "asthma-symptoms",
+      "patterns": [
+        "I notice wheezing in my breath",
+        "I have wheezing in my breath",
+        "I am breathless when I eat",
+        "I am breathless when I sleep",
+        "I am breathless when I speak",
+        "I'm out of breath when I eat",
+        "My breath is very fast",
+        "I breathe very quickly",
+        "I have a fast breath",
+        "I have a fast heartbeat",
+        "My heartbeat is very fast"
+      ],
+      "responses": [
+        "You may affect from asthma, check the common symptoms and then contact your doctor, you may need to an inhaler."
+      ]
+    },
+    {
+      "tag": "asthma-suggestion",
+      "patterns": [
+        "What should i do in case of asthma ?",
+        "What I can do in case of asthma",
+        "What is the best procedure in case of asthma",
+        "If I have the asthma what can i do?",
+        "If I have the asthma what should i do?",
+        "what do you suggest me to do in case of asthma?",
+        "What are your suggestions in case of asthma",
+        "I need to a your tip for my asthma",
+        "I have asthma",
+        "I have asthma what could I do?",
+        "I have asthma what should I do?",
+        "Maybe my son could have the asthma?",
+        "Maybe my father has the asthma?",
+        "Maybe I have the asthma?"
+      ],
+      "responses": [
+        "You should contact your doctor, you may need to an inhaler. Check the symptoms of asthma."
+      ]
+    },
+    {
+      "tag": "no_answer",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "I cannot understand your question. Try to reformulate it or write better your symptoms.",
+        "Try to reformulate your question or write your symptoms in a more specific way",
+        "Provide more information about your symptoms or reformulate the question."
+      ]
+    }
+  ]
+}
